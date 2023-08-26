@@ -88,7 +88,7 @@ export function Footer() {
           ©Guedes da Matta Odontologia. Todos os direitos Reservados
         </strong>
 
-        <div className="flex gap-20">
+        <div className="mobile:justify-center flex gap-20">
           <Link className="text-color-400" to={'/'} target="_blank">
             Termo de uso
           </Link>
