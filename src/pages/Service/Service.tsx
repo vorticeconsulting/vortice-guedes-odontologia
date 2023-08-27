@@ -60,7 +60,7 @@ export function Service() {
       <div className="max-w-7xl w-[90%] mx-auto my-40">
         <div className="mobile:flex-col mobile:h-auto bg-color-600 rounded-3xl w-[100%] h-[40rem] p-4 flex gap-3">
           <div className="space-y-10">
-            <h2 className="text-6xl text-color-200 font-bold max-w-xl mt-16 -tracking-wide leading-tight">
+            <h2 className="mobile:txt-center text-6xl text-color-200 font-bold max-w-xl mt-16 -tracking-wide leading-tight">
               Tratamento de canal
             </h2>
             <p className="text-lg leading-relaxed font-light text-color-200 max-w-2xl">
