@@ -18,7 +18,7 @@ const data = [
 
 export function Banner() {
   return (
-    <div className="bg-banner w-full h-[700px] bg-no-repeat bg-cover bg-left mt-32">
+    <div className="bg-banner w-full h-[700px] bg-no-repeat bg-cover bg-left mt-40">
       <div className="max-w-7xl w-[90%] mx-auto space-y-10 py-4">
         <h1 className="mobile:text-center text-6xl font-bold max-w-xl mt-16 -tracking-wide leading-tight">
           Confie seu sorriso a um profissional

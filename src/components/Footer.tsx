@@ -5,7 +5,7 @@ import { WhatsappLogo } from '@phosphor-icons/react'
 
 export function Footer() {
   return (
-    <footer className="bg-color-200 py-10">
+    <footer className="bg-color-200 py-10 w-full">
       <div className="mobile:flex-col max-w-7xl w-[90%] mx-auto flex gap-20">
         <div className="space-y-5">
           <img src={logo} alt="Logo" />
@@ -88,7 +88,7 @@ export function Footer() {
           ©Guedes da Matta Odontologia. Todos os direitos Reservados
         </strong>
 
-        <div className="mobile:justify-center flex gap-20">
+        <div className="mobile:justify-center flex gap-20 mobile:gap-4">
           <Link className="text-color-400" to={'/'} target="_blank">
             Termo de uso
           </Link>

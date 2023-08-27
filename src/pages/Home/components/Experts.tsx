@@ -41,7 +41,7 @@ export function Experts() {
       </div>
 
       <div>
-        <div className="mobile:w-[100%] mobile:overflow-y-hidden bg-color-800 w-[35rem] h-[30rem] relative rounded-3xl -z-10">
+        <div className="mobile:overflow-x-hidden mobile:w-[100%] mobile:overflow-y-hidden bg-color-800 w-[35rem] h-[30rem] relative rounded-3xl -z-10">
           <img
             className="rounded-3xl absolute top-10 left-10"
             src={casalDeDentistas}

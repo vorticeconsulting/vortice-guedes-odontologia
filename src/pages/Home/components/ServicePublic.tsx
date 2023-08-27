@@ -3,7 +3,7 @@ import imageService from '../../../assets/home/Image_sonile_03.jpeg'
 export function ServicePublic() {
   return (
     <div className="mobile:flex-col max-w-7xl w-[90%] mx-auto flex gap-24 my-28">
-      <div className="mobile:w-[100%] mobile:h-[21rem] mobile:overflow-y-hidden bg-color-600 w-[30rem] h-[25rem] rounded-md relative -z-10">
+      <div className="mobile:overflow-x-hidden mobile:w-[100%] mobile:h-[21rem] mobile:overflow-y-hidden bg-color-600 w-[30rem] h-[25rem] rounded-md relative -z-10">
         <img
           className="mobile:w-[100%] ml-10 mt-10 rounded-md overflow-hidden"
           src={imageService}

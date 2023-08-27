@@ -1,5 +1,3 @@
-import { Header } from '../../components/Header'
-
 import { Line } from '../../components/Line'
 import { Specialties } from './components/Specialties'
 import { ServicePublic } from './components/ServicePublic'
@@ -8,13 +6,10 @@ import { Specialization } from './components/Specialization'
 import { Experts } from './components/Experts'
 import { Testimony } from './components/Testimony'
 import { Contact } from './components/Contact'
-import { Footer } from '../../components/Footer'
 
 export function Home() {
   return (
-    <div>
-      <Header />
-
+    <main className="flex-1">
       {/* banner */}
       <Banner />
 
@@ -44,9 +39,6 @@ export function Home() {
 
       {/* Contact */}
       <Contact />
-
-      {/* Footer */}
-      <Footer />
-    </div>
+    </main>
   )
 }

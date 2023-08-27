@@ -10,6 +10,7 @@ export default {
         banner: 'url("./assets/home/banner.png")',
         imageServices: 'url("./assets/Rectangle 12.png")',
         imageExperts: 'url("./assets/Rectangle 13.png")',
+        bgServices: 'url("./assets/Services/service-banner.png")',
       },
       fontFamily: {
         sans: ['Inter, sans-serif'],
