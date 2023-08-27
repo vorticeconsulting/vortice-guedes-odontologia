@@ -56,7 +56,7 @@ export function Header() {
         <nav
           className={`${
             openMobile === true
-              ? 'opacity-100 bg-color-200 top-10 w-full h-[8rem] py-4 z-10 transition-transform'
+              ? 'opacity-100 bg-color-200 top-10 w-full h-[13rem] py-4 z-10 transition-transform'
               : 'mobile:opacity-0 mobile:absolute mobile:top-0 mobile:left-0 mobile:-translate-y-full'
           } `}
         >
@@ -88,7 +88,7 @@ export function Header() {
       </div>
 
       <button
-        className="absolute opacity-0 mobile:opacity-100 mobile:top-8 mobile:right-[0] mobile:mr-[1rem] mobile:text-color-200 mobile:text-3xl"
+        className="absolute opacity-0 mobile:opacity-100 mobile:top-8 mobile:right-[0] mobile:mr-[2rem] mobile:text-color-200 mobile:text-3xl"
         onClick={handleOpenMenuMobile}
       >
         {openMobile === true ? <X /> : <List className="" />}

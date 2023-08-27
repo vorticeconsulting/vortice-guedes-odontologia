@@ -23,7 +23,7 @@ export function LinksNav({
         onClick={handleCloseMenuMobile}
         className={`${
           openMobile === true
-            ? 'text-color-100'
+            ? 'text-color-100 my-2 block text-2xl'
             : 'text-lg font-bold text-color-200 hover:opacity-80'
         }`}
         to={link}
