@@ -49,14 +49,11 @@ export function Footer() {
 
         <div className="flex flex-col space-y-5">
           <strong className="text-color-300">Links</strong>
-          <Link className="text-color-400" target="_blank" to={'/'}>
+          <Link className="text-color-400" to={'/sobre'}>
             Sobre nós
           </Link>
-          <Link className="text-color-400" target="_blank" to={'/'}>
+          <Link className="text-color-400" to={'/servicos'}>
             Nossos serviços
-          </Link>
-          <Link className="text-color-400" target="_blank" to={'/'}>
-            Especialidades
           </Link>
         </div>
 
@@ -95,10 +92,10 @@ export function Footer() {
         </strong>
 
         <div className="mobile:justify-center flex gap-20 mobile:gap-4">
-          <Link className="text-color-400" to={'/'} target="_blank">
+          <Link className="text-color-400" to={'/'}>
             Termo de uso
           </Link>
-          <Link className="text-color-400" to={'/'} target="_blank">
+          <Link className="text-color-400" to={'/'}>
             Politica de privacidade
           </Link>
         </div>
