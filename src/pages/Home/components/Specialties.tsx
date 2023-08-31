@@ -77,7 +77,7 @@ export function Specialties() {
       <div className="flex justify-center py-32">
         <Link
           className="flex items-center justify-center gap-2 bg-color-500 w-[20rem] h-[3rem] text-color-100 rounded-md font-bold"
-          to={'/service'}
+          to={'/servicos'}
         >
           Veja toda a lista de serviços
           <ChevronsRight />

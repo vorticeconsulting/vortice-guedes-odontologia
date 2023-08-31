@@ -4,6 +4,12 @@ import { Facebook, Instagram } from 'lucide-react'
 import { WhatsappLogo } from '@phosphor-icons/react'
 
 export function Footer() {
+  const CELULAR_EMPRESA = '553230612136'
+  const encode = encodeURI('Olá! Gostaria de informações.')
+  const URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`
+  const facebook = 'https://www.facebook.com/cuidarodontologiabenfica/'
+  const instagram = 'https://www.instagram.com/guedesdamattaodontologia/'
+
   return (
     <footer className="bg-color-200 py-10 w-full">
       <div className="mobile:flex-col max-w-7xl w-[90%] mx-auto flex gap-20">
@@ -20,21 +26,21 @@ export function Footer() {
             </strong>
             <div className="flex items-center gap-2">
               <Facebook size={24} color="#fff" />
-              <Link className="text-color-400" to={'/'} target="_blank">
+              <Link className="text-color-400" to={facebook} target="_blank">
                 Facebook
               </Link>
             </div>
 
             <div className="flex items-center gap-2">
               <WhatsappLogo size={24} color="#fff" />
-              <Link className="text-color-400" to={'/'} target="_blank">
+              <Link className="text-color-400" to={URL} target="_blank">
                 Whatsapp
               </Link>
             </div>
 
             <div className="flex items-center gap-2">
               <Instagram size={24} color="#fff" />
-              <Link className="text-color-400" to={'/'} target="_blank">
+              <Link className="text-color-400" to={instagram} target="_blank">
                 Instagram
               </Link>
             </div>

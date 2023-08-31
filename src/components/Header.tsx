@@ -81,7 +81,7 @@ export function Header() {
 
         <Link
           className="mobile:hidden bg-color-500 px-4 py-3 rounded-lg text-color-100 font-bold hover:bg-color-900 transition-all"
-          to={'/'}
+          to={'/contato'}
         >
           Tire suas dúvidas
         </Link>
