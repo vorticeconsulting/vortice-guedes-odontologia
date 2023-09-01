@@ -112,8 +112,8 @@ export function Service() {
               Veja como nosso time entra em ação
             </h2>
             <p className="text-lg leading-relaxed font-light text-color-200 text-center my-5">
-              A Dra. Sonile Guedes da Matta tem especialização em Endodontia
-              Sendo uma profissional altamente preparada pra te ajudar a superar
+              A Dra. Sonile Guedes da Matta tem especialização em Endodontia,
+              sendo uma profissional altamente preparada pra te ajudar a superar
               esse incomodo em seus dentes, de forma tranquila e profissional.
             </p>
           </div>
