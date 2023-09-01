@@ -1,7 +1,9 @@
 {
-  "name": "guedes-da-matta-odontologia",
+  "name": "hostinger-react",
+  "homepage": "https://guedesdamattaodontologia.com.br/",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "my react application",
   "type": "module",
   "scripts": {
     "dev": "vite",
